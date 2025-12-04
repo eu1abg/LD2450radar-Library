@@ -27,7 +27,7 @@
 
 ```cpp
 void begin(int rx_pin, int tx_pin, long baud_rate = 256000);
-
+```cpp
 ### Конфигурация
 
 ```cpp
