@@ -1,0 +1,44 @@
+{
+  "name": "Radar2450",
+  "version": "1.0.0",
+  "description": "Advanced wrapper for HLK-LD2450 radar with filtering and tracking",
+  "keywords": [
+    "radar",
+    "ld2450",
+    "motion",
+    "presence",
+    "tracking",
+    "esp32",
+    "arduino"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/Radar2450.git"
+  },
+  "authors": [
+    {
+      "name": "YourName",
+      "email": "your.email@example.com"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/Radar2450",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32",
+    "espressif8266"
+  ],
+  "dependencies": [
+    {
+      "name": "HLK-LD2450",
+      "owner": "RBEGamer"
+    }
+  ],
+  "export": {
+    "include": [
+      "Radar2450.h",
+      "Radar2450.cpp",
+      "examples/*"
+    ]
+  }
+}
