@@ -708,7 +708,7 @@ LD2450radar-Library/
 
 ## 📄 Лицензия
 
-MIT License. Подробности в файле LICENSE.
+MIT License. Подробности в файле [LICENSE.](https://github.com/eu1abg/LD2450radar-Library/blob/main/MIT%20License.txt)
 
 
 
