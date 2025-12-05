@@ -565,37 +565,43 @@ float getAngle(int n) - угол (градусы)
 ```
 ```cpp 
 float getX(int n) - координата X (метры)
- ```
-
-```cpp float getY(int n) - координата Y (метры)
-
 ```
-
-```cpp float getSpeed(int n) - скорость (м/с)
-
+```cpp 
+float getY(int n) - координата Y (метры)
+```
+```cpp 
+float getSpeed(int n) - скорость (м/с)
 ```
 
 ### Сырой доступ по индексам (1..capacity())
 
-```cpp int getIDRaw(int idx) - ID по индексу 
+```cpp 
+int getIDRaw(int idx) - ID по индексу 
 ```
-```cpp float getDistanceRaw(int idx) - дистанция по индексу 
+```cpp 
+float getDistanceRaw(int idx) - дистанция по индексу 
 ```
-```cpp float getAngleRaw(int idx) - угол по индексу 
+```cpp
+ float getAngleRaw(int idx) - угол по индексу 
 ```
-```cpp float getXRaw(int idx) - координата X по индексу 
+```cpp
+float getXRaw(int idx) - координата X по индексу 
 ```
-```cpp float getYRaw(int idx) - координата Y по индексу 
+```cpp 
+float getYRaw(int idx) - координата Y по индексу 
 ```
-```cpp float getSpeedRaw(int idx) - скорость по индексу 
+```cpp 
+float getSpeedRaw(int idx) - скорость по индексу 
 ```
 
 
 ### Вспомогательные методы
 
-```cpp int capacity() - максимальное количество отслеживаемых целей
- ```
-```cpp void reset() - сброс всех целей 
+```cpp 
+int capacity() - максимальное количество отслеживаемых целей
+```
+```cpp 
+void reset() - сброс всех целей 
 ```
 
 
@@ -610,13 +616,17 @@ float getX(int n) - координата X (метры)
 
 
 
-```cpp 0.0 - нет сглаживания (сырые данные) 
+```cpp 
+0.0 - нет сглаживания (сырые данные) 
 ```
-```cpp 0.1 - сильное сглаживание (плавное движение) 
+```cpp 
+0.1 - сильное сглаживание (плавное движение) 
 ```
-```cpp 0.3 - умеренное сглаживание 
+```cpp
+ 0.3 - умеренное сглаживание 
 ```
-```cpp 0.5 - легкое сглаживание (быстрый отклик) 
+```cpp 
+0.5 - легкое сглаживание (быстрый отклик) 
 ```
 
 
